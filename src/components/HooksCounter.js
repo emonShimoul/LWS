@@ -7,10 +7,10 @@ const HooksCounter = () => {
     const dispatch = useDispatch();
 
     const incrementHandler = (value) => {
-        dispatch(increment());
+        dispatch(increment(value));
     }
     const decrementHandler = (value) => {
-        dispatch(decrement());
+        dispatch(decrement(value));
     }
 
     return (
