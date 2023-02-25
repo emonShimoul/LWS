@@ -5,6 +5,6 @@ const fetchTodos = async (dispatch) => {
     const todos = await response.json();
 
     dispatch(loaded(todos));
-}
+};
 
 export default fetchTodos;
